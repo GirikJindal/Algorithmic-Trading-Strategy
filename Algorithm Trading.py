@@ -63,6 +63,11 @@ def indicator1(df, timeperiod):
 #print(ma_df)
 
 class Strategy:
+    '''
+    Generate a pandas DataFrame called ‘signals’ with 2 columns:
+        i. ‘timestamp’: Same as ‘timestamp’ column in ‘df’
+        ii. ‘signal’: This column can have values: BUY, SELL and NO_SIGNAL
+    '''
     def __init__(self, script):
         self.script = script
 
