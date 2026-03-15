@@ -19,12 +19,6 @@ A professional-grade algorithmic trading platform built with Python, featuring m
 - **Monitoring**: Health checks and performance monitoring
 - **Documentation**: Comprehensive API docs and user guides
 
-## 📋 Requirements
-
-- Python 3.8+
-- pip
-- git
-
 ## 🛠️ Installation
 
 1. **Clone the repository**
@@ -294,4 +288,3 @@ This software is for educational and research purposes only. It should not be us
 
 **Version:** 2.0.0
 **Python Version:** 3.8+
-**Maintainer:** Girik
