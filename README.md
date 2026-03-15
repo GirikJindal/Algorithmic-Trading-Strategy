@@ -33,7 +33,7 @@ A professional-grade algorithmic trading platform built with Python, featuring m
    cd trading-system
    ```
 
-2. **Create virtual environment** (⚠️ **DO NOT** push venv to repository)
+2. **Create virtual environment**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -49,19 +49,7 @@ A professional-grade algorithmic trading platform built with Python, featuring m
    pip install -e .
    ```
 
-## 📁 Project Structure & Best Practices
-
-### .gitignore
-The project includes a comprehensive `.gitignore` file that excludes:
-- Virtual environments (`venv/`, `env/`, etc.)
-- Python cache files (`__pycache__/`, `*.pyc`)
-- Sensitive configuration (`config/config.yaml`, `.env`)
-- Logs and temporary files
-- IDE and OS specific files
-
-**⚠️ Important**: Never commit virtual environments, API keys, or sensitive data to version control.
-
-### Development Setup
+## Development Setup
 For detailed development setup instructions, see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## ⚙️ Configuration
@@ -306,4 +294,4 @@ This software is for educational and research purposes only. It should not be us
 
 **Version:** 2.0.0
 **Python Version:** 3.8+
-**Maintainer:** Trading System Team
+**Maintainer:** Girik
